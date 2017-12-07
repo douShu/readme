@@ -13,6 +13,7 @@
 		DB498E491FD993B800675DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB498E481FD993B800675DED /* Assets.xcassets */; };
 		DB498E4C1FD993B800675DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB498E4A1FD993B800675DED /* LaunchScreen.storyboard */; };
 		DB498E4F1FD993B800675DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB498E4E1FD993B800675DED /* main.m */; };
+		DB498E5D1FD995C300675DED /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DB498E5C1FD995C300675DED /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DB498E4B1FD993B800675DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB498E4D1FD993B800675DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB498E4E1FD993B800675DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB498E5B1FD995C300675DED /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DB498E5C1FD995C300675DED /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				DB498E4A1FD993B800675DED /* LaunchScreen.storyboard */,
 				DB498E4D1FD993B800675DED /* Info.plist */,
 				DB498E4E1FD993B800675DED /* main.m */,
+				DB498E5B1FD995C300675DED /* Person.h */,
+				DB498E5C1FD995C300675DED /* Person.m */,
 			);
 			path = hi;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				DB498E441FD993B800675DED /* ViewController.m in Sources */,
 				DB498E4F1FD993B800675DED /* main.m in Sources */,
+				DB498E5D1FD995C300675DED /* Person.m in Sources */,
 				DB498E411FD993B800675DED /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
